@@ -38,6 +38,10 @@ router1.post('/newCompany', async function(req,res)
         company:companyinfo});
 });
 
+router1.get('/check')
+{
+    console.log("test ");
+}
 
 //Showing list of Companies
 router1.get('/companyList',async function(req,res)
