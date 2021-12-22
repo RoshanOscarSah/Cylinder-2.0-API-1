@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URL || 'mongodb://127.0.0.1:27017/cylinder',{
+mongoose.connect(process.env.MONGODB_URL || 'mongodb+srv://user:<password>@oscar.wpgq9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology : true
